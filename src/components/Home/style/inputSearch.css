@@ -1,0 +1,30 @@
+.form-home{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding: var(--padding-mobile);
+}
+
+.input-bar{
+    border: 1px solid var(--color-secondary-text);
+    border-right: none;
+    outline: none;
+    border-radius: 2px;
+    height: 35px;
+    width: 83vw;
+}
+
+input:focus {  
+    background: transparent;,
+    border: none;
+ }
+
+.input-bar-button{
+    background-color: var(--secondary-color);
+    height: 35px;
+    border: none;
+    color: var(--primary-color);
+    display: inline-block;
+    padding: 0 20px;
+}
